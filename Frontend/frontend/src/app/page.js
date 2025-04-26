@@ -1,7 +1,11 @@
-import Image from "next/image";
+import React from 'react'
 
-export default function Home() {
+function page() {
   return (
-    <h1> Hello World</h1>
-  );
+    <div>
+      <h1 className='color=black'> Nuevos cambios </h1>
+    </div>
+  )
 }
+
+export default page
